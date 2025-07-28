@@ -12,10 +12,16 @@
     .hero { background: url('https://images.unsplash.com/photo-1606788075761-35c7f2b91799') center/cover no-repeat; padding: 100px 20px; text-align: center; color: white; }
     .hero h1 { font-size: 3rem; }
     .menu { display: flex; flex-wrap: wrap; justify-content: center; padding: 2rem; gap: 2rem; }
-    .item { background: rgb(156, 155, 155); border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); width: 200px; text-align: center; padding: 1rem; }
-    .item img { width: 100%; border-radius: 10px; }
-    .item h3 { margin: 10px 0; }
+    .item { background: rgb(156, 155, 155); font-size: 20px; border-radius: 10px; box-shadow: 0 0 15px rgba(0,0,0);transition: 0.4s; width: 400px; text-align: center; padding: 2rem; }
+    .item img { width: 100%; border-radius: 10px;box-shadow: 0 0 15px rgba(0,0,0);transition: 0.4s;  }
+    .item h3 { margin: 10px 0;font-size: 30px; }
     footer { background: #333; color: rgb(245, 18, 18); text-align: center; padding: 1rem; margin-top: 2rem; }
+    .item:hover{
+    transform: scale(1.05) translateY(-3px);
+}
+.item img:hover{
+    transform: scale(1.05);
+}
   </style>
 </head>
 <body>
@@ -27,7 +33,7 @@
   <nav>
     <a href="menu.html#theyordermostoften">Найчастіше замовляють</a>
     <a href="dostavka.html">Доставка</a>
-    <a href="#contact">Контакти</a>
+    <a href="kontaktu.html">Контакти</a>
     <a href="index.html">Меню</a>
     <a href="menu.html">Головна</a>
   </nav>
@@ -45,6 +51,7 @@
         <img src="https://www.moi-sushi.com.ua/wp-content/uploads/2022/08/futomaki-z-lososem_-scaled.jpg"/>
         <h3>Футрмакі</h3>
         <p>195 грн </p>
+        <p>риба, морепродукти, овочі, омлет, ікра, і навіть сир.</p>
     </div>
   </section>
 
@@ -53,6 +60,7 @@
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6GUp_04mpmAhgxCBJhw_8OKATnxuFfvAaiw&s"/>
         <h3>Нагірі</h3>
         <p>315 грн </p>
+         <p>грудочки рису, сформованої вручну, і шматочка риби, морепродуктів або іншої начинки, покладеної зверху</p>
     </div>
   </section>
 
@@ -62,6 +70,7 @@
         <img src="https://bagatolososia.kiev.ua/image/cache/catalog/NIgiri-gunkani/losos%20mal-1000x1000.jpg"/>
         <h3>Гункан</h3>
         <p>139 грн </p>
+        <p>рису для суші, водоростей норі та начинки, часто це ікра, морепродукти або риба.</p>
     </div>
   </section>
 
@@ -71,6 +80,7 @@
         <img src="https://media-cdn.tripadvisor.com/media/photo-s/09/99/46/54/basho-sushi-house.jpg"/>
         <h3>Тамакі</h3>
         <p>315 грн </p>
+        <p>рис для суші, викладеного в миску або контейнер, поверх якого розташовані різноманітні начинки, часто рибні та морепродукти, овочі та інші інгредієнти</p>
     </div>
   </section>
 
