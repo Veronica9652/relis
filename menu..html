@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sushi Delivery</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #fe897e; color: #333; }
+    header { background: #ff4d4d; color: rgb(244, 239, 239); padding: 1rem 2rem; text-align: center; }
+    nav { background: #da3939; padding: 1rem 2rem; text-align: center; }
+    nav a { margin: 0 15px; text-decoration: none; color: #ebe3e3; font-weight: bold; }
+    .hero { background: url('https://images.unsplash.com/photo-1606788075761-35c7f2b91799') center/cover no-repeat; padding: 100px 20px; text-align: center; color: white; }
+    .hero h1 { font-size: 3rem; }
+    .menu { display: flex; flex-wrap: wrap; justify-content: center; padding: 2rem; gap: 2rem; }
+    .item { background: rgb(156, 155, 155); font-size: 20px; border-radius: 10px; box-shadow: 0 0 15px rgba(0,0,0);transition: 0.4s; width: 400px; text-align: center; padding: 2rem; color: white; text-shadow: 0px 0px 3px black; }
+    .item img { width: 100%; border-radius: 10px;box-shadow: 0 0 15px rgba(0,0,0);transition: 0.4s;  }
+    .item h3 { margin: 10px 0;font-size: 30px; }
+    footer { background: #333; color: rgb(245, 18, 18); text-align: center; padding: 1rem; margin-top: 2rem; }
+    .item:hover{
+    transform: scale(1.05) translateY(-3px);
+}
+.item img:hover{
+    transform: scale(1.05);
+}
+h1{
+  text-shadow: 0px 0px 3px black;
+}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sushi Delivery</h1>
+    <p>Смачно. Швидко. Завжди свіжо.</p>
+  </header>
+
+  <nav>
+    <a href="menu.html#theyordermostoften">Найчастіше замовляють</a>
+    <a href="dostavka.html">Про нас</a>
+    <a href="kontaktu.html">Контакти</a>
+    <a href="menu..html">Меню</a>
+    <a href="index.html">Головна</a>
+  </nav>
+
+  <section class="hero">
+    <h1>Доставка суші у вашому місті</h1>
+    <p>Замовляй улюблені роли прямо зараз!</p>
+  </section>
+
+
+  c
+
+    <section id="menu" class="menu">
+    <div class="item">
+        <img src="https://www.moi-sushi.com.ua/wp-content/uploads/2022/08/futomaki-z-lososem_-scaled.jpg"/>
+        <h3>Футрмакі</h3>
+        <p>195 грн </p>
+        <p>риба, морепродукти, овочі, омлет, ікра, і навіть сир.</p><!-- Кнопка + -->
+<button class="add-button" onclick="addToCart()">
+  +
+</button>
+
+<script>
+  function addToCart() {
+    alert("Товар додано в кошик!");
+    // Тут можна додати логіку оновлення кошика
+  }
+</script>
+
+<style>
+  .add-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: #d4f5d0;
+    color: green;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+
+  .add-button:hover {
+    background-color: #b2ecae;
+    transform: scale(1.1);
+  }
+
+  .add-button:active {
+    background-color: #8fd78c;
+    transform: scale(0.95);
+  }
+</style>
+    </div>
+  </section>
+
+  <section id="menu" class="menu">
+    <div class="item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6GUp_04mpmAhgxCBJhw_8OKATnxuFfvAaiw&s"/>
+        <h3>Нагірі</h3>
+        <p>315 грн </p>
+         <p>грудочки рису, сформованої вручну, і шматочка риби, морепродуктів або іншої начинки, покладеної зверху</p>
+         <!-- Кнопка + -->
+<button class="add-button" onclick="addToCart()">
+  +
+</button>
+
+<script>
+  function addToCart() {
+    alert("Товар додано в кошик!");
+    // Тут можна додати логіку оновлення кошика
+  }
+</script>
+
+<style>
+  .add-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: #d4f5d0;
+    color: green;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+
+  .add-button:hover {
+    background-color: #b2ecae;
+    transform: scale(1.1);
+  }
+
+  .add-button:active {
+    background-color: #8fd78c;
+    transform: scale(0.95);
+  }
+</style>
+    </div>
+  </section>
+
+
+   <section id="menu" class="menu">
+    <div class="item">
+        <img src="https://bagatolososia.kiev.ua/image/cache/catalog/NIgiri-gunkani/losos%20mal-1000x1000.jpg"/>
+        <h3>Гункан</h3>
+        <p>139 грн </p>
+        <p>рису для суші, водоростей норі та начинки, часто це ікра, морепродукти або риба.</p>
+        <!-- Кнопка + -->
+<button class="add-button" onclick="addToCart()">
+  +
+</button>
+
+<script>
+  function addToCart() {
+    alert("Товар додано в кошик!");
+    // Тут можна додати логіку оновлення кошика
+  }
+</script>
+
+<style>
+  .add-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: #d4f5d0;
+    color: green;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+
+  .add-button:hover {
+    background-color: #b2ecae;
+    transform: scale(1.1);
+  }
+
+  .add-button:active {
+    background-color: #8fd78c;
+    transform: scale(0.95);
+  }
+</style>
+    </div>
+  </section>
+
+
+  <section id="menu" class="menu">
+    <div class="item">
+        <img src="https://media-cdn.tripadvisor.com/media/photo-s/09/99/46/54/basho-sushi-house.jpg"/>
+        <h3>Тамакі</h3>
+        <p>315 грн </p>
+        <p>рис для суші, викладеного в миску або контейнер, поверх якого розташовані різноманітні начинки, часто рибні та морепродукти, овочі та інші інгредієнти</p>
+        <!-- Кнопка + -->
+<button class="add-button" onclick="addToCart()">
+  +
+</button>
+
+<script>
+  function addToCart() {
+    alert("Товар додано в кошик!");
+    // Тут можна додати логіку оновлення кошика
+  }
+</script>
+
+<style>
+  .add-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: #d4f5d0;
+    color: green;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+
+  .add-button:hover {
+    background-color: #b2ecae;
+    transform: scale(1.1);
+  }
+
+  .add-button:active {
+    background-color: #8fd78c;
+    transform: scale(0.95);
+  }
+</style>
+    </div>
+  </section>
+
+
+   <section class="hero">
+    <h1>Ще у нас є сети </h1>
+
+     <section id="menu" class="menu">
+    <div class="item">
+        <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTcDLAiWjI6Rnn1YZfKSGPzIRLk4J8CXhBMf3nti0Sl5k5puFLHdztUHu6prNaT0qxYHibu4mQqaNL636Za2_rW8jj4G83M8JfVRFFIOdkIxYTGWd9mhZ5w"/>
+        <h3>Сет Люкс</h3>
+        <p>1251грн </p>
+        <!-- Кнопка + -->
+<button class="add-button" onclick="addToCart()">
+  +
+</button>
+
+<script>
+  function addToCart() {
+    alert("Товар додано в кошик!");
+    // Тут можна додати логіку оновлення кошика
+  }
+</script>
+
+<style>
+  .add-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: #d4f5d0;
+    color: green;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+
+  .add-button:hover {
+    background-color: #b2ecae;
+    transform: scale(1.1);
+  }
+
+  .add-button:active {
+    background-color: #8fd78c;
+    transform: scale(0.95);
+  }
+</style>
+    </div>
+  </section>
+
+   <section id="menu" class="menu">
+    <div class="item">
+        <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTSYUbQROl5HLg3sMgfL1we4BPiNNXGr1rUHyvSE31z6QozGtFYaDrlcOhOYBQ60gSBPp2y0mt_GBzqSkwxZ2Fs1tOP3h53Azdce_GpMylVABb523aLIVVl"/>
+        <h3>Сет Yellow</h3>
+        <p>670 грн </p>
+        <!-- Кнопка + -->
+<button class="add-button" onclick="addToCart()">
+  +
+</button>
+
+<script>
+  function addToCart() {
+    alert("Товар додано в кошик!");
+    // Тут можна додати логіку оновлення кошика
+  }
+</script>
+
+<style>
+  .add-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: #d4f5d0;
+    color: green;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+
+  .add-button:hover {
+    background-color: #b2ecae;
+    transform: scale(1.1);
+  }
+
+  .add-button:active {
+    background-color: #8fd78c;
+    transform: scale(0.95);
+  }
+</style>
+    </div>
+  </section>
+
+
+ <section id="menu" class="menu">
+    <div class="item">
+        <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQD4nJOOrIpM6KoM21oR1mtpDHPfhferg5HUN1vol_YyJ9LtwpjH_uUUzJrDe5VgdjoMvnnsslFvg8xphv2szmzx9F58Bl2BqiXInHHXyfJNoAkZyaoV3MT3g"/>
+        <h3>Сет Чізі</h3>
+        <p>842 грн </p>
+        <!-- Кнопка + -->
+<button class="add-button" onclick="addToCart()">
+  +
+</button>
+
+<script>
+  function addToCart() {
+    alert("Товар додано в кошик!");
+    // Тут можна додати логіку оновлення кошика
+  }
+</script>
+
+<style>
+  .add-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: #d4f5d0;
+    color: green;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+
+  .add-button:hover {
+    background-color: #b2ecae;
+    transform: scale(1.1);
+  }
+
+  .add-button:active {
+    background-color: #8fd78c;
+    transform: scale(0.95);
+  }
+</style>
+    </div>
+  </section>
+
+
+
+   <section id="menu" class="menu">
+    <div class="item">
+        <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTZilupfJnQpsfmUFqoWNLv63PmIsEsshAft5-vfUfWhGidxKkSC5HEglbLaNqrZbI2APXX3wUdx1oSQHizCq53H0xVM16Vc1sloVU7RF__xJs3VbXDNds9Flc"/>
+        <h3>Сет Сакура</h3>
+        <p>780 грн </p>
+        <!-- Кнопка + -->
+<button class="add-button" onclick="addToCart()">
+  +
+</button>
+
+<script>
+  function addToCart() {
+    alert("Товар додано в кошик!");
+    // Тут можна додати логіку оновлення кошика
+  }
+</script>
+
+<style>
+  .add-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: #d4f5d0;
+    color: green;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+
+  .add-button:hover {
+    background-color: #b2ecae;
+    transform: scale(1.1);
+  }
+
+  .add-button:active {
+    background-color: #8fd78c;
+    transform: scale(0.95);
+  }
+</style>
+    </div>
+  </section>
+
+
+
+   <section id="menu" class="menu">
+    <div class="item">
+        <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRnKo7SzJ91h9JNpXvd0-_QolbAuIvw5Zf4wiohcuqLrLY3tXM5NT6cBMm-htgsyU2xOhD2UuexNqqSTMAPqHCS0b3SazMb5QL-DlaZgpfRd5l6KmO89CBL0A"/>
+        <h3>Комбо суші сет</h3>
+        <p>658 грн </p>
+        <!-- Кнопка + -->
+<button class="add-button" onclick="addToCart()">
+  +
+</button>
+
+<script>
+  function addToCart() {
+    alert("Товар додано в кошик!");
+    // Тут можна додати логіку оновлення кошика
+  }
+</script>
+
+<style>
+  .add-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: #d4f5d0;
+    color: green;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+
+  .add-button:hover {
+    background-color: #b2ecae;
+    transform: scale(1.1);
+  }
+
+  .add-button:active {
+    background-color: #8fd78c;
+    transform: scale(0.95);
+  }
+</style>
+    </div>
+  </section>
+
+<footer id="contact">
+    <p>Телефон: +38 (050) 123-45-67 | Instagram: @sushidelivery</p>
+    <p>© 2025 Sushi Delivery. Всі права захищено.</p>
+  </footer>
+</body>
+</html>
+
+      
+
+   
+
+
+
+
+        
